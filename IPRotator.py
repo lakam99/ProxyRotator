@@ -8,7 +8,6 @@ class SecretAgent:
     def __init__(self, IP, user_agent):
         self.IP, self.user_agent = IP, user_agent
 
-
     def reassign(self, IP, user_agent):
         self.IP, self.user_agent = IP, user_agent
 
